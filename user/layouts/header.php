@@ -255,7 +255,7 @@ if ($row['acct_currency'] === 'USD') {
             height: auto;
             padding: 10px 16px;
             line-height: 1.25;
-            background-color: rgba(27, 85, 226, 0.23921568627450981);
+            background-color: rgba(198, 239, 179, 0.33);
             color: #2c6d12;
             border-left: 1px solid #e7f1e4;
             box-sizing: border-box;
