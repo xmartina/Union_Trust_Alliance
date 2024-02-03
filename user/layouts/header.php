@@ -263,6 +263,9 @@ if ($row['acct_currency'] === 'USD') {
         .custom-file-container label {
             color: #38821a;
         }
+        .input-group .input-group-prepend .input-group-text svg {
+            color: #38821a;
+        }
     </style>
 </head>
 

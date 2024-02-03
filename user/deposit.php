@@ -17,6 +17,12 @@ $deposit = $stmt7->fetch(PDO::FETCH_ASSOC);
 
 $routine_no = $deposit['routine_no'];
 $bank_name = $deposit['bank_name'];
+if (empty($deposit['swift_code'])) {
+    $deposit['swift_code'] = '';
+}
+if (empty($deposit['acct_no'])) {
+    $deposit['acct_no'] = '';
+}
 $swift_code = $deposit['swift_code'];
 $acct_no = $deposit['acct_no'];
 
