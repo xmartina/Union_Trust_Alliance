@@ -226,6 +226,22 @@ if ($row['acct_currency'] === 'USD') {
             border-right: 1px solid #38821a;
             background-image: linear-gradient(to right, #38821a 0%, #2c6d12 100%);
         }
+        .navbar {
+            padding: 0;
+            min-height: 80px;
+            background: #38821a;
+            -webkit-transition: .3s ease all;
+            transition: .3s ease all;
+            -webkit-box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.08), 0 1px 20px 0 rgba(0, 0, 0, 0.07), 0px 1px 11px 0px rgba(0, 0, 0, 0.07);
+            -moz-box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.08), 0 1px 20px 0 rgba(0, 0, 0, 0.07), 0px 1px 11px 0px rgba(0, 0, 0, 0.07);
+            box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.08), 0 1px 20px 0 rgba(0, 0, 0, 0.07), 0px 1px 11px 0px rgba(0, 0, 0, 0.07);
+        }
+        .btn-primary {
+            color: #fff !important;
+            background-color: #38821a!important;
+            border-color: #38821a;
+            box-shadow: 0 10px 20px -10px #38821a;
+        }
     </style>
 </head>
 
