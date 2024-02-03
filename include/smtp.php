@@ -10,7 +10,7 @@ class message{
         $mail = new PHPMailer();
         //SMTP Settings
         $mail->isSMTP();
-        $mail->Host = "	mail.trustwaveunion.online"; // Change Email Host
+        $mail->Host = "mail.trustwaveunion.online"; // Change Email Host
         $mail->SMTPAuth = true;
         $mail->Username = "info@trustwaveunion.online"; // Change Email Address
         $mail->Password = '@SECtrustwaveunion1'; // Change Email Password
