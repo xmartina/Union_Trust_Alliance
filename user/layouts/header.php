@@ -216,6 +216,17 @@ if ($row['acct_currency'] === 'USD') {
     </style>
     <link rel="stylesheet" href="/assets/css/extras-added.css">
 
+    <style>
+        .header-container .navbar-nav.theme-brand {
+            width: 255px;
+            height: 80px;
+            display: flex;
+            justify-content: space-around;
+            background: #fff;
+            border-right: 1px solid #38821a;
+            background-image: linear-gradient(to right, #38821a 0%, #2c6d12 100%);
+        }
+    </style>
 </head>
 
 <body class="sidebar-noneoverflow">
