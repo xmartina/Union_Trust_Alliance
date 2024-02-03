@@ -242,6 +242,27 @@ if ($row['acct_currency'] === 'USD') {
             border-color: #38821a;
             box-shadow: 0 10px 20px -10px #38821a;
         }
+        #sidebar ul.menu-categories li.menu.active > .dropdown-toggle {
+            background: #2c6d12;
+        }
+        .custom-file-container__custom-file__custom-file-control__button {
+            box-sizing: border-box;
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: 6;
+            display: block;
+            height: auto;
+            padding: 10px 16px;
+            line-height: 1.25;
+            background-color: rgba(27, 85, 226, 0.23921568627450981);
+            color: #2c6d12;
+            border-left: 1px solid #e7f1e4;
+            box-sizing: border-box;
+        }
+        .custom-file-container label {
+            color: #38821a;
+        }
     </style>
 </head>
 
